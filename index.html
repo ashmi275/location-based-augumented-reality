@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>GeoAR.js demo</title>
+    <title>GeoAr.js EPICentre</title>
     <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
     <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
@@ -14,102 +14,19 @@
 
     <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false;'>
       <a-text 
-      text="value: uwin" 
-      color="blue"   
+      text="value: 
+      You are at EPICentre! \n \n
+      The Entrepreneurship, Practice and \n
+      Innovation Centre, or EPICentre, \n
+      as we call it, is a modern, \n
+      co-working space. \n \n
+      Contact Us: \n
+      +1 519-253-3000 ext. 3515" 
+      color="white"   
       rotation="-90 0 0"
-      gps-entity-place="latitude: 43.59884891145078; longitude: -79.60018749457815;"
+      gps-entity-place="latitude: 42.30456195766808; longitude: -83.0640182020208;"
       ></a-text>
-<a-marker-camera preset='custom' type='pattern' url='./pattern-logo.patt'></a-marker-camera>
+      <a-marker-camera preset='custom' type='pattern' url='./pattern-logo.patt'></a-marker-camera>
    </a-scene>
-
-   <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false;'> 
-    <a-text 
-    text="value: 801 \n Victoria Ave" 
-    color="blue"    
-    rotation="-90 0 0"
-    gps-entity-place="latitude: 42.31122739073176; longitude: -83.03758227318473;"
-    ></a-text>
-    <a-marker-camera preset='hiro'></a-marker-camera>
- </a-scene>
-
-    <!-- <a-scene
-      vr-mode-ui="enabled: false"
-      embedded
-      arjs="sourceType: webcam; debugUIEnabled: false;"
-    >
-      <a-text
-        value="Joyce Enterprenuership Centre"
-        look-at="[gps-camera]"
-        scale="120 120 120"
-        gps-entity-place="latitude: 42.30463937530885; longitude: -83.06353654434899;"
-      ></a-text>
-      <a-text
-        value="EPICentre"
-        look-at="[gps-camera]"
-        scale="120 120 120"
-        gps-entity-place="latitude: 42.30463337087856; longitude: -83.063996744349;"
-      ></a-text>
-      <a-text
-        value="Alumni Hall and Conference Centre"
-        look-at="[gps-camera]"
-        scale="120 120 120"
-        gps-entity-place="latitude: 42.30288583449518; longitude: -83.06290010202085;"
-      ></a-text>
-      <a-text
-        value="Odette School of Business"
-        look-at="[gps-camera]"
-        scale="120 120 120"
-        gps-entity-place="latitude: 42.30526917372129; longitude: -83.06460093085673;"
-      ></a-text>
-      <a-text
-        value="Starbucks"
-        look-at="[gps-camera]"
-        scale="120 120 120"
-        gps-entity-place="latitude: 42.30693675661013; longitude: -83.06497060995905"
-      ></a-text>
-      <a-text
-        value="Leddy Library"
-        look-at="[gps-camera]"
-        scale="120 120 120"
-        gps-entity-place="latitude: 42.307918632640316; longitude: -83.06781200202069"
-      ></a-text>
-      <a-text
-        value="Dillon Hall"
-        look-at="[gps-camera]"
-        scale="120 120 120"
-        gps-entity-place="latitude: 42.307918632640316; longitude: -83.06781200202069"
-      ></a-text>
-      <a-text
-        value="Essex Hall"
-        look-at="[gps-camera]"
-        scale="120 120 120"
-        gps-entity-place="latitude: 42.30516687397924; longitude: -83.06682277503619"
-      ></a-text>
-      <a-text
-        value="Windsor Armouries - School of Creative Arts, University of Windsor"
-        look-at="[gps-camera]"
-        scale="120 120 120"
-        gps-entity-place="latitude: 42.317793575304215; longitude: -83.03833244619989"
-      ></a-text>
-      <a-text
-        value="CAW Student Centre"
-        look-at="[gps-camera]"
-        scale="120 120 120"
-        gps-entity-place="latitude: 42.30668320104207; longitude: -83.06843428667709"
-      ></a-text>   
-      <a-text
-        value="Scotiabank"
-        look-at="[gps-camera]"
-        scale="120 120 120"
-        gps-entity-place="latitude: 42.31680837791241; longitude: -83.03798165969224"
-      ></a-text>
-      <a-text
-        value="Scotiabank"
-        look-at="[gps-camera]"
-        scale="120 120 120"
-        gps-entity-place="latitude: 42.31680837791241; longitude: -83.03798165969224"
-      ></a-text>
-      <a-camera gps-camera rotation-reader> </a-camera>
-    </a-scene> -->
   </body>
 </html>
